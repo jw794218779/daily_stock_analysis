@@ -1,0 +1,6 @@
+name: 自动+手动部署
+on:
+  push:
+    branches: [main]
+  # 保留手动触发入口
+  workflow_dispatch:
